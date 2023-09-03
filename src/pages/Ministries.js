@@ -1,113 +1,122 @@
 import { styled } from "styled-components";
 const Ministries = () => {
     return (
-        <div className="flex justify-around ">
 
-            <div className="hidden md:flex md:flex-col 
-            md:place-items-center  mt-24 ml-12 ">
-                <h1 className="text-2xl text-blue-500 ">About</h1>
-                <h1>DAVID</h1>
-                <h1>STEVEN</h1>
-                <h1 className="text-black font-semibold">BELIEFS</h1>
-                <h1>MINISTRIES</h1>
+
+        <div className="md:w-[800px] md:mx-auto">
+            <h1 className="text-center text-3xl mt-24 text-gray-900">MINISTRIES</h1>
+
+            <div className="px-6 mt-12">
+                <img src="/assets/ministry.jpeg" alt="" />
+                <div >
+                    <StyledH1>The Resounding Revival TV Netwok </StyledH1>
+                    <STYLEDH3> Resounding Revival TV Netwok  features the teaching and
+                        healing ministry of pastor nwabueze Jeremiah nwite and his worship
+                        ministry lead by anionted Gospel singers. The Resounding revival
+                        Tvnetwork is currently available on YouTube, Facebook, and on the
+                        VRealm app. Programs include
+                        Word and Spirit, Viral Revival, Presence and Power, Worship, and more..</STYLEDH3>
+                </div>
             </div>
 
-            <div >
-                <h1 className="text-center text-3xl mt-24 text-gray-900">MINISTRIES</h1>
+            <div className="px-6 mt-12">
+                <img src="/assets/ministry1.jpg" alt="" />
+                <div>
+                    <StyledH1>Wednesday Of wonders</StyledH1>
+                    <STYLEDH3>At our 'Wednesday of Wonders' program, participants embark on
+                        a transformative journey where the divine presence and the remarkable
+                        power of the Holy Spirit are experienced in a truly extraordinary
+                        manner. These gatherings are divinely appointed, marked by the abundant
+                        grace of salvation, miraculous healings, liberating deliverances,
+                        and the palpable presence of the Holy Spirit..
+                        <p>
 
-                <div className="px-6 mt-12">
-                    <img src="/assets/ministry.jpeg" alt="" />
-                    <div >
-                        <StyledH1>The Encounter TV Network</StyledH1>
-                        <STYLEDH3>The Encounter TV network features the
-                            teaching and healing ministry of David Diga
-                            Hernandez and the worship ministry of Steven
-                            Moctezuma. The ETV network is currently
-                            available on YouTube, Vimeo, Apple TV, and
-                            on the David Hernandez Ministries app.
-                            Programs include Word and Spirit, Viral
-                            Revival, Presence and Power, Worship, and
-                            more.</STYLEDH3>
-                    </div>
+                            The heart of our 'Wednesday of Wonders' program pulsates with three
+                            pillars:
+                            worship, the word, and miracles. Each component weaves together to create
+                            an environment where the supernatural becomes natural, where the miraculous
+                            becomes an everyday occurrence. In this sacred space, we fervently worship,
+                            delve into the profound teachings
+                            of the Word, and witness awe-inspiring miracles unfold before our eyes.
+                        </p>
+                    </STYLEDH3>
                 </div>
 
                 <div className="px-6 mt-12">
-                    <img src="/assets/ministry1.jpg" alt="" />
-                    <div>
-                        <StyledH1>Encounter Services</StyledH1>
-                        <STYLEDH3>At the encounter service, people encounter the presence and
-                            power of the Holy Spirit in a unique way. God graces our meetings
-                            with salvation, healing, deliverance, and the tangible presence
-                            of the Holy Spirit. The encounter service features worship, the
-                            word, and miracles. Anything can happen at these anointed
-                            meetings.</STYLEDH3>
-                    </div>
+                    <img src="/assets/ministry2.jpg" alt="" />
+                    <StyledH1>Jesus Good Morning Oh'</StyledH1>
+                    <STYLEDH3>
+                        Jesus Good Morning Oh' is the nurturing heart of our ministry, where seekers and
+                        believers alike find a source of profound encouragement, spiritual upliftment, and
+                        dedicated prayer support. This program serves as a conduit for receiving divine
+                        impartation, delivered with the same passion and conviction as our beloved Victory
+                        Resounding Revival Ministries.
+                        <p>
 
-                    <div className="px-6 mt-12">
-                        <img src="/assets/ministry2.jpg" alt="" />
-                        <StyledH1>Word and Spirit</StyledH1>
-                        <STYLEDH3>Word and Spirit is the discipleship program of David Hernandez
-                            Ministries, a place where believers can receive encouragement,
-                            edification, and prayer. Receive impartation from David. Word and
-                            Spirit is available on the ETV Network.</STYLEDH3>
-                    </div>
+                            Just as the sunrise ushers in a new day, 'Jesus Good Morning Oh' ushers in a fresh encounter with the
+                            Word and the Spirit. It is a sacred space where the light of God's truth shines brightly, illuminating
+                            our paths and strengthening our spirits. Through this program, you can bask in the presence of the
+                            Lord, draw closer to Him, and receive His blessings abundantly.
 
-                    <div className="mt-12">
-                        <img src="/assets/ministry3.jpg" alt="" />
-                        <StyledH1>Worship Ministry</StyledH1>
-                        <STYLEDH3 >Steven Moctezuma is an anointed worship leader and
-                            song writer. His love for the presence of the Holy Spirit marks
-                            his worship ministry. Gifted with a unique voice, Steven's
-                            worship ministry is touching lives all around the world and
-                            leading people into deeper encounters in God's presence. Steven
-                            has partnered his worship ministry with David's evangelistic
-                            ministry. Steven's worship ministry is available on the ETV
-                            Network.
-                        </STYLEDH3>
-                    </div>
-
-
-
-                    <div className="mt-12">
-                        <img src="/assets/ministry4.jpg" alt="" />
-                        <StyledH1>Encounter Podcast</StyledH1>
-                        <STYLEDH3>The Encounter Podcast features weekly audio sermons from David Diga
-                            Hernandez and offers all of its episodes for download on almost all
-                            devices. Listeners can hear the Encounter Podcast on the DHM app
-                            (Apple & Android)  or on this website. Best of all, because of our
-                            World Changer Ministry partners, the Encounter Podcast is absolutely
-                            free for both download and streaming.
-                        </STYLEDH3>
-                    </div>
-
-                    <div className="mt-12">
-                        <img src="/assets/ministry5.jpg" alt="" />
-                        <StyledH1>David's Blog</StyledH1>
-                        <STYLEDH3>David’s weekly blog is featured here on this website and on the
-                            DHM app. This weekly blog features David's anointed writing on
-                            topics like The Holy Spirit, Healing, Prayer, Spiritual Warfare,
-                            Miracles, God's Presence, and more.</STYLEDH3>
-                    </div>
-
-                    <div className="mt-12">
-                        <img src="/assets/Ministry5.jpg" alt="" />
-                        <StyledH1>Live-streamed Events</StyledH1>
-                        <STYLEDH3>We globally broadcast many of our services from around the
-                            worldwide through livestreams. People can join from almost any
-                            nation in the world and encounter the presence and power of the
-                            Holy Spirit. Through live-streamed events, the power of the
-                            Holy Spirit is sent right into the home.
-                        </STYLEDH3>
-                    </div>
-
-                    <div className="mb-24 mt-12">
-                        <img src="/assets/ministries6.jpg" alt="" />
-                        <StyledH1 >Holy Spirit School</StyledH1>
-                        <STYLEDH3>The Holy Spirit School online exists to raise a Spirit-filled people equipped to spread the gospel of Jesus Christ all around the world in the power of the Holy Spirit. The power of the Holy Spirit meets grounded, Biblical, balanced teaching in each course.</STYLEDH3>
-                    </div>
+                        </p>
+                        <p>
+                            'Jesus Good Morning Oh' extends its reach through the Resounding Revival TvNetwork, ensuring that this source of spiritual nourishment and inspiration is readily accessible to all. Join us as we greet each morning with the warmth of Jesus' love,
+                            offering encouragement, edification, and a sanctuary of prayer for all who seek His grace and mercy."
+                        </p>
+                    </STYLEDH3>
                 </div>
+
+                <div className="mt-12">
+                    <img src="/assets/ministry3.jpg" alt="" />
+                    <StyledH1>PRAY-NOW</StyledH1>
+                    <STYLEDH3 >
+                        "PRAY-NOW, an acronym for 'Night of Worship, Praise, and Prophetic,'
+                        is a spiritually charged night vigil and fervent prayer program
+                        designed to ignite the hearts and spirits of believers. It serves as
+                        a sacred call to prayer and intercession, uniting the faithful in a
+                        powerful and transformative experience.
+                        <p>
+                            During PRAY-NOW, we gather to fervently worship, lift our voices in joyful praise,
+                            and seek the prophetic guidance of the Holy Spirit. It is a time to draw near to
+                            God, to surrender our concerns, and to intercede on behalf of our loved ones,
+                            communities, and the world at large.
+                        </p>
+                        <p>
+                            As the night unfolds, believers are invited to engage in
+                            aggressive prayers, invoking the divine presence and
+                            invoking God's blessings and guidance. PRAY-NOW is a
+                            spiritual haven where the power of prayer takes center
+                            stage, and lives are touched, healed, and transformed
+                            through the supernatural encounter with the Almighty.
+                        </p>
+                        <p>
+                            Join us at PRAY-NOW, where the night is dedicated to
+                            worship, praise, and prophetic revelations. It is a sacred
+                            time when believers are summoned to be vigilant, united,
+                            and fervent in their pursuit of divine communion and the
+                            advancement of God's kingdom.
+                        </p>
+                    </STYLEDH3>
+                </div>
+
+
+
+
+                <div className="mt-12">
+                    <img src="/assets/Ministry5.jpg" alt="" />
+                    <StyledH1>Live-streamed Events</StyledH1>
+                    <STYLEDH3>We globally broadcast many of our services from around the
+                        worldwide through livestreams. People can join from almost any nation in
+                        the world and encounter the presence and power of the Holy Spirit.
+                        Through live-streamed events,
+                        the power of the Holy Spirit is sent right into the home
+                    </STYLEDH3>
+                </div>
+
+
             </div>
         </div>
+
     );
 }
 export default Ministries;

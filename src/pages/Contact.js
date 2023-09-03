@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <div className="text-gray-700  w-[600px] mx-auto block">
+        <div className="text-gray-700  md:w-[600px] mx-auto block">
 
 
             <div>
@@ -39,19 +39,9 @@ const Contact = () => {
                 </div>
 
                 <button className="py-3 px-6 mx-auto block text-white bg-blue-500 mt-12">Submit</button>
-                <div>
-                    <h1 className=" px-6 text-xl font-semibold mb-6">Mailing Address:</h1>
-                   <h3 className="px-6"> P.O. Box 39670</h3>
-                   <h3 className="px-6"> Downey CA 90239</h3>
-                    <span className="px-6">Phone: 888.740.1110</span>
-                </div>
+                
 
-
-                <div className="space-y-6 mt-12">
-                    <button className="py-3 md:mt-12 mb-12 px-6 mx-auto block text-white bg-blue-500">SEND A PRAYER REQUEST</button>
-                    <button className="py-3 px-6 mx-auto block text-white bg-blue-500">FAQS</button>
-
-                </div>
+            
             </div>
         </div>
     );

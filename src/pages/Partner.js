@@ -5,23 +5,16 @@ const Partner = () => {
     return (
         <div className="flex justify-center space-x-9" >
 
-            <div className="hidden md:block">
-                <h1 className="text-2xl font-bold text-blue-600 mt-24 mb-4 ">Media</h1>
-                <div className="space-y-2 font-light text-sm">
-                    <h2 >DONATE</h2>
-                    <h2 className="text-black">PARTNER</h2>
-                    <h2>MAIL-IN GIVING</h2>
-                    <h2 >PARTNER LOGIN</h2>
-                </div>
-            </div>
 
 
 
-            <div className="md:w-[600px]"> 
+
+            <div className="md:w-[600px]">
                 <div className="px-6">
                     <h1 className="mt-12 mb-8 text-3xl text-center text-gray-700">Monthly Partnership</h1>
                     <img src="/assets/partner.jpg" alt="" />
-                    <h3 className="text-center mt-6 text-xl text-gray-800 font-light mb-3 ">Help David Diga Hernandez continue to win souls and
+                    <h3 className="text-center mt-6 text-xl text-gray-800 font-light mb-3 ">
+                        Help Pastor Nwite Nwabueze Jeremiah continue to win souls and
                         disciple believers through worldwide media and events.
                         Become a World Changer Partner with David Hernandez
                         Ministries by signing up for our automatic monthly

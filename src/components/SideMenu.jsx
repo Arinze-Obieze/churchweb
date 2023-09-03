@@ -1,123 +1,95 @@
-import React, { useState } from "react";
-import { AiOutlineMinus, AiOutlinePlus, AiOutlinePullRequest } from "react-icons/ai";
+import { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const SideMenu = ({ isOpen , handleMenuToggle }) => {
-    const [aboutSubMenuOpen, setAboutSubMenuOpen] = useState(false);
-    const [mediaSubMenuOpen, setMediaSubMenuOpen] = useState(false);
-    const [donateSubMenuOpen, setDonateSubMenuOpen] = useState(false);
-    const [contactSubMenuOpen, setContactSubMenuOpen] = useState(false);
+const SideMenu = ({ toggleMenu, isMenuOpen }) => {
+    const [aboutSubMenu, setAboutSubMenu] = useState(false);
+    const [mediaSubMenu, setMediaSubMenu] = useState(false);
 
-    const handleSubMenuToggle = (submenu) => {
-        switch (submenu) {
-            case "about":
-                setAboutSubMenuOpen(!aboutSubMenuOpen);
-                break;
-            case "media":
-                setMediaSubMenuOpen(!mediaSubMenuOpen);
-                break;
-            case "donate":
-                setDonateSubMenuOpen(!donateSubMenuOpen);
-                break;
-            case "contact":
-                setContactSubMenuOpen(!contactSubMenuOpen);
-                break;
-            default:
-                break;
-        }
-    };
-
+    const toggleAboutMenuSubMenu = () => {
+        setAboutSubMenu(!aboutSubMenu)
+    }
+    const toggleMediaMenuSubMenu = () => {
+        setMediaSubMenu(!mediaSubMenu)
+    }
     return (
-        <>
-        
-        <div
-            className={`fixed top-0 right-0 h-full w-[50%]   bg-gray-900 text-white transition-transform duration-300 transform ${isOpen ? "translate-x-0" : "translate-x-[100%]"
-                }`}
-        >
-            <ul className="h-full text-lg flex flex-col  py-8  px-4">
-                <Link to={'/'} >Home</Link>
+        <div>
 
-                <div onClick={() => handleSubMenuToggle("about")}>
-                    <span className="flex place-items-center">
-                        {!aboutSubMenuOpen ? <AiOutlinePlus /> : <AiOutlineMinus />}
-                        <h1>About</h1>
-                    </span>
+            {!isMenuOpen ?
+                <AiOutlineMenu size={25} onClick={toggleMenu} />
+                :
 
-                    {aboutSubMenuOpen && (
-                        <ul className="text-gray-300 ml-6 flex flex-col">
-                            <Link to={'/david'}>DAVID</Link>
-                            <Link to={'/steven'}>STEVEN</Link>
-                            <Link to={'/beliefs'}>BELIEFS</Link>
-                            <Link to={'/ministries'} >MINISTRIES</Link>
-                        </ul>
-                    )}
+                <div className="absolute right-0 top-2 w-[50%] h-full z-10 ">
 
-                </div>
+                    <div className="pt-8 pl-3">
+                        <AiOutlineClose size={25} onClick={toggleMenu} />
+                    </div>
+                    <div className="bg-[#000033] py-14 px-6 space-y-6 text-xl  font-serif   h-full flex flex-col ">
+                        <span>   <Link to={''}>Home</Link>
+
+                        </span>
+
+                        <span >
+                            <span onClick={toggleAboutMenuSubMenu} className="flex  place-items-center">
+                                {!aboutSubMenu ?
+                                    <AiOutlinePlus />
+                                    :
+                                    <AiOutlineMinus />
+                                }
+
+                                <h1>ABOUT</h1>
+                            </span>
+                            {aboutSubMenu
+                                ?
+                                <div className='flex flex-col space-y-2 pl-6 mt-1'>
+                                    <Link to={'/pastor'}>Pastor NNJ</Link>
+                                    <Link to={'/beliefs'}>BELIEFS</Link>
+                                    <Link to={'/ministries'} >MINISTRIES</Link>
+                                </div>
+                                :
+                                ''
+                            }
+
+                        </span>
+
+                        <span className="flex flex-col">
+                            <span onClick={toggleMediaMenuSubMenu} className="flex place-items-center">
+                                {!aboutSubMenu ?
+                                    <AiOutlinePlus />
+                                    :
+                                    <AiOutlineMinus />
+                                }
+                                <h1> MEDIA</h1>
+                            </span>
+                            {mediaSubMenu
+                                ?
+                                <div className='flex flex-col space-y-2 pl-6 mt-1'>
+                                    <Link to={'/rrvnetwork'}>THE RR TV Network</Link>
+                                    <Link to={'/livestreams'}>LIVESTREAMS</Link>
+                                </div>
+                                :
+                                ''
+                            }
+                        </span>
 
 
-                <div onClick={() => handleSubMenuToggle("media")}>
-                    <span className="flex place-items-center mt-1 ">
-                        {!mediaSubMenuOpen ? <AiOutlinePlus /> : <AiOutlineMinus />}
-                        <h1>Media</h1>
-                    </span>
 
-                    {mediaSubMenuOpen && (
-                        <ul className="text-gray-300 flex flex-col ml-6">
-                            <Link to={'/etvnetwork'}>THE ETV NETWORK</Link>
-                            <Link to={'/wordandspirit'}>WORD AND SPIRIT</Link>
-                            <Link to={'/viralrevival'}>VIRAL REVIVAL</Link>
-                            <Link to={'/worship'}>WORSHIP</Link>
-                            <Link to={'/presenceandpower'}>PRESENCE AND POWER</Link>
-                            <Link to={'/soakingworship'}>SOAKING WORSHI</Link>
-                            <Link to={'/livestreams'}>LIVESTREAMS</Link>
-                            <Link to={'/encounterpodcast'}>ENCOUNTER PODCAST</Link>
-                            <Link to={'/reclaimmedia'}>RECLAIM MEDIA</Link>
-                        </ul>
+                        <Link to={'/events'} className="mt-1">Events</Link>
 
-
-                    )}
-                </div>
-
-
-
-                <Link to={'blog'}>Blog</Link>
-
-                <div onClick={() => handleSubMenuToggle("donate")}>
-                    <span className="flex place-items-center mt-1">
-                        {!donateSubMenuOpen ? <AiOutlinePlus /> : <AiOutlineMinus />}
-                        <h1>Donate</h1>
-                    </span>
-                </div>
-                {donateSubMenuOpen && (
-                    <ul className="text-gray-300 flex flex-col ml-6">
-                        <Link to={'/donate'}>Donate</Link>
                         <Link to={'/partner'}>PARTNER</Link>
-                        <Link to={'mailingiving'}>MAIL-IN GIVING</Link>
-                    </ul>
-                )}
 
-                <Link to={'/ecourse'} className="mt-1">E-Courses</Link>
-                <Link to={'/events'} className="mt-1">Events</Link>
-
-                <div onClick={() => handleSubMenuToggle("contact")}>
-                    <span className="flex place-items-center mt-1">
-                        {!contactSubMenuOpen ? <AiOutlinePlus /> : <AiOutlineMinus />}
-                        <h1>CONTACT</h1>
-                    </span>
-                </div>
-                {contactSubMenuOpen && (
-                    <ul className="text-gray-300 flex flex-col ml-6">
                         <Link to={'/contact'} >CONTACT</Link>
-                        <Link >CONNECT</Link>
-                        <Link to={'/faq'}>FAQ</Link>
-                    </ul>
-                )}
 
-                <Link to="booking" className="border-2 border-blue-900 rounded-xl w-fit mx-auto mt-6 px-4 py-2 hover:bg-blue-900 transition duration-500 ">Booking</Link>
-            </ul>
+
+                        <Link to="booking" className="border-2 border-blue-900 rounded-xl w-fit mx-auto mt-6 px-4 py-2 hover:bg-blue-900 transition duration-500 ">Booking</Link>
+
+                    </div>
+
+                </div>
+            }
+
         </div>
-        </>
     );
-};
+}
 
 export default SideMenu;

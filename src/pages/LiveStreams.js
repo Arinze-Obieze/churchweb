@@ -25,9 +25,9 @@ const LiveStreams = () => {
             </div>
             <hr className="border-t border-gray-300 mt-4 mx-auto w-[85%] mb-6" />
 
-            <div>
+            <div className="sm:px-6 md:w-[600px] mx-auto">
                 <h1 className="text-center text-2xl font-bold text-gray-700 ">Want livestream alerts via text? Fill out this form.</h1>
-                <form className="border-2 px-6 mx-8">
+                <form className="border-2 px-6 mx-8 mb-12 md:mb-24 ">
                     <h1 className="text-gray-700 text-[18px] font-light mb-6 mt-6">Receive livestream alerts via text.</h1>
                     <div>
                         <div >
@@ -51,7 +51,7 @@ const LiveStreams = () => {
                 <h1 className="text-center text-2xl text-gray-700 font-semibold mt-6 mb-12 ">Want livestream alerts via email? Fill out this form.</h1>
             </div>
 
-            <form className="px-12 mx-8 text-gray-700 text-[16px] ">
+            <form className="px-12  md:w-[600px] mx-auto  text-gray-700 text-[16px] ">
                 <div>
                     <h1 className="mb-1 mt-8">Email Address *</h1>
                     <input type="text" className="border-2 h-[30px] w-[90%]" />
@@ -93,10 +93,11 @@ const LiveStreams = () => {
 
                 <button className="bg-gray-400 hover:bg-blue-600 mt-6 mb-12 px-6 py-3">Subscribe</button>
             </form>
+
             <hr className="border-t border-gray-300 mt-4 mx-auto w-[85%] mb-6" />
-            <div >
-                <h1 className="text-center font-bold text-xl  text-gray-800 mt-12">WATCH NOW ON THE DHM APP</h1>
-                <img src="/assets/etvlast.jpg" alt="" />
+            <div className=" ">
+                <h1 className=" font-bold text-xl  text-center text-gray-800 mt-24">WATCH NOW ON THE DHM APP</h1>
+                <img src="/assets/etvlast.jpg" alt="" className="mx-auto" />
             </div>
 
 

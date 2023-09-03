@@ -10,29 +10,17 @@ function Home() {
     return (
         <>
 
-            <div className='md:px-[180px] py-4  px-6 '>
-
-                <img src="/assets/book.jpeg" alt=""
-                    className='mt-8 ' />
-                <button className='bg-blue-400 text-white
-         p-5 mt-4 block mx-auto mb-12 md:mb-1'>BUY NOW</button>
-            </div>
-
-            <div className='md:px-[170px] px-6 '>
-                <img src="/assets/Second_Book.jpg" alt="" />
-            </div>
-
             <div className='md:flex border-b-2 mb-20 pb-12 md:justify-center'>
                 <div>
-                    <span className='mt-20   '>
-                        <img src="/assets/Praying+the+Holy+Spirit.png" width={600} className='mt-20 md:w-[400px] h-auto' alt="" />
+                    <span className='mt-20 '>
+                        <img src="/assets/book.jpg"  className='mt-20 md:w-[400px] h-auto sm:px-6' alt="" />
                     </span>
                 </div>
 
                 {/* lkkl */}
-                <div className='w-[550px]'>
+                <div className='md:w-[550px]'>
                     <h1 className='text-xl font-bold text-center leading-[40px] text-gray-700 md:mt-6'>Free Download</h1>
-                    <h3 className=' w-62 ml-6 text-gray-600 text-xl mb-6 font-light'>Sign up to David’s firstNameing list and receive the first chapter of “Praying in the Holy Spirit” for free. You'll also begin receiving free content, resources, and updates from this ministry.
+                    <h3 className=' md:w-62 ml-6 text-gray-600 text-xl mb-6 font-light'>Sign up to Pastor Nwite Nwabueze Jeremiah Nameing list and receive the first chapter of “Sit Down” for free. You'll also begin receiving free content, resources, and updates from this ministry.
                     </h3>
 
                     {/* form */}
@@ -59,16 +47,9 @@ function Home() {
                             <input type="checkbox" />
                             <label htmlFor="checkbox"> Livestream Alerts</label>
                         </div>
-                        <div className='space-x-2'>
-                            <input type="checkbox" />
-                            <label htmlFor="checkbox">Weekly Podcast Episodes</label>
-                        </div>
-                        <div className='space-x-2'>
-                            <input type="checkbox" />
 
-                            <label htmlFor="checkbox">Weekly Blog Posts</label>
-                        </div>
-                        <div className='mt-16'>
+
+                        <div className='mt-12'>
                             <button className='bg-blue-600 text-white py-3 px-6'>Subscribe</button>
                         </div>
                     </div>

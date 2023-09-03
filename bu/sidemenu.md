@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
-const SideMenu = ({ isOpen, handleMenuToggle }) => {
+const SideMenu = ({ isOpen }) => {
     const [aboutSubMenuOpen, setAboutSubMenuOpen] = useState(false);
     const [mediaSubMenuOpen, setMediaSubMenuOpen] = useState(false);
     const [donateSubMenuOpen, setDonateSubMenuOpen] = useState(false);
@@ -31,7 +31,7 @@ const SideMenu = ({ isOpen, handleMenuToggle }) => {
         <>
 
             <div
-                className={`fixed top-0 right-0 h-full w-[50%]   bg-[#000033] text-white transition-transform duration-300 transform ${isOpen ? "translate-x-0" : "translate-x-[100%] "
+                className={`fixed top-0 right-0 h-full w-[50%]   bg-[#000033] text-white transition-transform duration-300 transform   "
                     }`}
             >
                 <ul className="h-full text-lg flex flex-col  py-8  px-4">

@@ -1,16 +1,17 @@
+import { Link } from "react-router-dom";
+
 const BELIEFS = () => {
     return (
         <div className="md:flex text-center ">
             <div className="hidden md:flex md:flex-col 
             md:place-items-center mt-24 ml-12 ">
                 <h1 className="text-2xl text-blue-500 ">About</h1>
-                <h1>DAVID</h1>
-                <h1>STEVEN</h1>
-                <h1 className="text-black font-semibold">BELIEFS</h1>
-                <h1>MINISTRIES</h1>
+                <Link to={'/pastor'}>PASTOR NWABUEZE JEREMIAH </Link>
+                <Link to={'/beliefs'} className="text-black font-semibold">BELIEFS</Link>
+                <Link to={'/ministries'}>MINISTRIES</Link>
             </div>
             <div className=" md:w-[650px] mx-auto">
-                <h1 className="mt-8 mb-3 text-2xl font-bold text-center leading-10 text-gray-800">DHM Statement of Faith</h1>
+                <h1 className="mt-8 mb-3 text-2xl font-bold text-center leading-10 text-gray-800">VREALM Statement of Faith</h1>
                 <hr />
                 <div className="px-8">
                     <h1 className="text-2xl text-gray-800 mt-12 mb-6">The Exclusivity of Jesus Christ</h1>
