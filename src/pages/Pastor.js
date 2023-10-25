@@ -1,11 +1,11 @@
 const David = () => {
     return (
         <>
-            <div className='p-4 '>
+            <div className='p-4 px-[32px]'>
                 <div>
                     <div className="md:flex  md:justify-around md:gap-12 ">
                         <div className=" ">
-                            <img src="/pastor/1.jpg" alt="" className="sm:w-[400px] sm:h-[450px] mx-auto mt-12" />
+                            <img src="/pastor/1.jpg" alt="" className=" mx-auto mt-12" />
                         </div>
                         <div className="border-b-2 mb-6 p-2">
                             <h1 className="font-bold text-2xl h-7 mt-3 text-gray-700 ">Pastor Nwabueze Jeremiah Nwite</h1>

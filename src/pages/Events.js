@@ -1,6 +1,6 @@
 const Events = () => {
     return (
-        <div className="text-center md:mx-auto md:w-[600px]">
+        <div className="text-center md:mx-auto md:w-[600px] px-[32px]">
 
 
             <div className="px-6 text-gray-700 mb-12 ">

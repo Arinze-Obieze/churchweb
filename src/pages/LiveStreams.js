@@ -1,6 +1,6 @@
 const LiveStreams = () => {
     return (
-        <div>
+        <div className="px-[32px]">
 
 
 

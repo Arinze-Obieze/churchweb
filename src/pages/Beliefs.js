@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const BELIEFS = () => {
     return (
-        <div className="md:flex text-center ">
+        <div className="md:flex text-center px-[32px] ">
             <div className="hidden md:flex md:flex-col 
             md:place-items-center mt-24 ml-12 ">
                 <h1 className="text-2xl text-blue-500 ">About</h1>

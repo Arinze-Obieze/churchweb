@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const RrvNetwork = () => {
     return (
-        <div className="flex justify-around">
+        <div className="flex justify-around px-[32px]">
             <div className="hidden md:block mt-24 text-gray-600">
                 <h1 className="text-2xl font-bold text-blue-600 mb-4 ">Media</h1>
                 <div className="space-y-2 font-light text-sm">

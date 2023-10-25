@@ -8,7 +8,7 @@ function Home() {
 
 
     return (
-        <>
+        <div className='px-[32px]'>
 
             <div className='md:flex border-b-2 mb-20 pb-12 md:justify-center'>
                 <div>
@@ -74,7 +74,7 @@ function Home() {
                 </span>
             </div>
 
-        </>
+        </div>
     )
 }
 

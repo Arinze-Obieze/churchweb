@@ -3,7 +3,7 @@ const Ministries = () => {
     return (
 
 
-        <div className="md:w-[800px] md:mx-auto">
+        <div className="md:w-[800px] px-[32px] md:mx-auto">
             <h1 className="text-center text-3xl mt-24 text-gray-900">MINISTRIES</h1>
 
             <div className="px-6 mt-12">

@@ -2,7 +2,7 @@
 const Booking = () => {
 
     return (
-        <div className="md:w-[800px] md:mx-auto sm:px-6">
+        <div className="md:w-[800px] md:mx-auto px-[36px] sm:px-6">
 
 
             <h1 className="text-center text-xl leading-loose mt-24">Invite Pastor Nwite Nwabueze Jeremiah</h1>
