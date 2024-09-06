@@ -5,10 +5,7 @@ const BELIEFS = () => {
         <div className="md:flex text-center px-[32px] ">
             <div className="hidden md:flex md:flex-col 
             md:place-items-center mt-24 ml-12 ">
-                <h1 className="text-2xl text-blue-500 ">About</h1>
-                <Link to={'/pastor'}>PASTOR NWABUEZE JEREMIAH </Link>
-                <Link to={'/beliefs'} className="text-black font-semibold">BELIEFS</Link>
-                <Link to={'/ministries'}>MINISTRIES</Link>
+                <img src="/logod.png" alt=""/>
             </div>
             <div className=" md:w-[650px] mx-auto">
                 <h1 className="mt-8 mb-3 text-2xl font-bold text-center leading-10 text-gray-800">VREALM Statement of Faith</h1>

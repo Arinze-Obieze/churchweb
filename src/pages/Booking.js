@@ -1,5 +1,5 @@
 
-const Booking = () => {
+const BookMe = () => {
 
     return (
         <div className="md:w-[800px] md:mx-auto px-[36px] sm:px-6">
@@ -71,4 +71,4 @@ const Booking = () => {
     );
 }
 
-export default Booking;
+export default BookMe;
