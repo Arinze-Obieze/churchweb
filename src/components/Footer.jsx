@@ -36,13 +36,10 @@ const Footer = () => {
               <div class="px-5 py-2">
                 <a href="/book-me">Book Me</a>
               </div>
-              {/* <div class="px-5 py-2">
-                <a href="#"></a>
-              </div> */}
             </nav>
-            <p class="mt-7 text-base">© 2024 VRealm, Ministry.</p>
           </div>
         </div>
+        <p class="mt-7 text-sm pb-2">© 2024 VRealm, Ministry.</p>
         <div className="text-sm w-full pb-4 border-t border-b border-gray-400 pt-2">
           This website was designed and built by{" "}
           <a

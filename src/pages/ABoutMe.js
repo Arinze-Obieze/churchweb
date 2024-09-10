@@ -65,10 +65,10 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="block">
-          <h1 className="text-center font-bold text-2xl text-gray-700 md:mt-12 mt-6 ">
-            INVITE Pastor Nwabueze Jeremiah Nwite
+          <h1 className="text-center font-bold text-xl text-gray-700 md:mt-12 mt-6 ">
+            Invite Pastor Nwabueze Jeremiah
           </h1>
-          <h3 className="text-center w-[400px] mx-auto text-gray-600 text-xl">
+          <h3 className="text-center pt-2 mx-auto text-gray-600 text-xl">
             invite Pastor Nwabueze Jeremiah Nwite to minister at your next
             church or ministry event.
           </h3>
