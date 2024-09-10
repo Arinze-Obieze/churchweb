@@ -32,13 +32,13 @@ const LiveStreams = () => {
       </div>
       <hr className="border-t border-gray-300 mt-4 mx-auto w-[85%] mb-6" />
 
-      <div className="sm:px-6 md:w-[600px] mx-auto">
-        <h1 className="font-bold  text-2xl h-7 my-24 mt-2 text-gray-700 ">
+      {/* <div className="sm:px-6 md:w-[600px] mx-auto">
+        <h1 className="font-bold  text-2xl  my-8  mt-2 text-gray-700 ">
           Want livestream alerts via text ?
-          <br /> Fill out this form.
+          <br className="mt-2" /> Fill out this form.
         </h1>
         <form className="border-2 px-2 mx-8 mb-12 md:mb-24 ">
-          <h1 className="font-bold text-2xl h-7 px-4 my-4 mt-2 text-gray-700 ">
+          <h1 className="font-bold text-2xl   my-4 mt-2 text-gray-700 ">
             Receive livestream alerts via text.
           </h1>
           <div>
@@ -62,14 +62,16 @@ const LiveStreams = () => {
             </h3>
           </div>
         </form>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <h1 className="text-center text-2xl text-gray-700 font-semibold mt-6 mb-12 ">
-          Want livestream alerts via email? Fill out this form.
+          Want livestream alerts via email?
+          <br />
+          Fill out this form.
         </h1>
-      </div>
-
-      <form className="px-12  md:w-[600px] mx-auto  text-gray-700 text-[16px] ">
+      </div> */}
+      {/* 
+      <form className="md:px-12  md:w-[600px] mx-auto  text-gray-700 text-[16px] ">
         <div>
           <h1 className="mb-1 mt-8">Email Address *</h1>
           <input type="text" className="border-2 h-[30px] w-[90%]" />
@@ -114,7 +116,7 @@ const LiveStreams = () => {
         <button className="bg-gray-400 hover:bg-blue-600 mt-6 mb-12 px-6 py-3">
           Subscribe
         </button>
-      </form>
+      </form> */}
 
       <hr className="border-t border-gray-300 mt-4 mx-auto w-[85%] mb-6" />
       <div className=" ">

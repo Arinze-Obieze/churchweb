@@ -16,7 +16,7 @@ const Ministries = () => {
             className="md:max-w-[350px] md:h-[350px]"
           />
           <div>
-            <h1 className="font-bold text-left text-2xl h-7 my-4 mt-2 text-gray-700 ">
+            <h1 className="font-bold text-left text-2xl  my-4 mt-2 text-gray-700 ">
               The Resounding Revival TV Netwok
             </h1>
             <h3 className="text-left">

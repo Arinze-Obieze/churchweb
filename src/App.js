@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import BELIEFS from "./pages/Beliefs";
 import Ministries from "./pages/Ministries";
@@ -36,7 +36,7 @@ function App() {
         </Routes>
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Carousel from "../components/Carousel";
+import Carousal from "../components/Carousal";
 function Home() {
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <div>
-      <Carousel />
+      <Carousal />
       <div className="px-[32px] md:px-0 ">
         <div className="md:flex border-b-2 mb-20 pb-12 md:justify-center">
           <div>
@@ -26,9 +26,10 @@ function Home() {
               Free Download
             </h1>
             <h3 className=" md:w-62 ml-6 text-gray-600 text-xl mb-6 font-light">
-              Sign up to Pastor Nwite Nwabueze Jeremiah Nameing list and receive
-              the first chapter of “Sit Down” for free. You'll also begin
-              receiving free content, resources, and updates from this ministry.
+              Sign up for Pastor Nwite Nwabueze Jeremiah’s Naming List and
+              receive the first chapter of “Sit Down” for free. You’ll also
+              start receiving free content, resources, and updates from this
+              ministry.
             </h3>
 
             {/* form */}
@@ -74,7 +75,7 @@ function Home() {
             </div>
 
             {/* checkbox */}
-            <div className="pl-6 text-gray-600">
+            <div className="pl-6 pt-4 text-gray-600">
               <h1 className="text-gray-800">
                 In addition to general emails, I would also like to receive...
               </h1>

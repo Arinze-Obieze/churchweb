@@ -1,38 +1,61 @@
-import { AiFillYoutube, AiOutlineTwitter, AiOutlineWhatsApp } from "react-icons/ai";
-import { BiLogoFacebook } from "react-icons/bi"
+import {
+  AiFillYoutube,
+  AiOutlineTwitter,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+import { BiLogoFacebook } from "react-icons/bi";
 import { Link } from "react-router-dom";
 const Footer = () => {
-    return (
-        <div >
-            <div className="flex bg-gray-600 py-8 mt-6 justify-center space-x-6">
-
-                <Link to={'https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D%252B2347062129563%26data%3DARBEbCAGnyNoida70z3p-I3_boWW1zHHVO5BB5cI-IWjd_Nxe3vYhbvjzn3caFSU67CjLY6Th8PN7-WfDncSAFJwcoMZLx76DVXtCsFO_ZV1ZkSJxFmfWfCCCusl4UeFgJnG7RiioaUxEQXsW6iN2cElKQ%26source%3DFB_Page%26app%3Dfacebook%26entry_point%3Dpage_cta%26fbclid%3DIwAR2LBv4pizpfW1Q3Kftu6Gfwq_A-qZFVOWh9L2zuoD0C_FiD-lVEp3u996w&h=AT12GPsFWq414Oc18jCRh3Jk3ITNnrcaLbnR0YM6m0ZwtIFGHZjBO2eOrvnwebWyOax7S6CV7JhSXu8uDF5InD2QmIJBJFqOv0bR6gQTQ3whcP2u1QOjyRqRTOXMPA'} className="bg-white rounded-full p-5 hover:bg-gray-800 hover:text-white transition duration-500 ease-in">
-                    <AiOutlineWhatsApp size={22} color='black' />
-                </Link>
-                {/* 
-                <div className="bg-white rounded-full p-5 hover:bg-gray-800 hover:text-white transition duration-500 ease-in">
-                    <AiFillYoutube size={22} color='black' />
-                </div> */}
-                <Link to={'https://web.facebook.com/profile.php?id=100077265491515'} className="bg-white rounded-full p-5 hover:bg-gray-800 hover:text-white transition duration-500 ease-in">
-                    <BiLogoFacebook size={22} color='black' />
-                </Link>
-                {/* <div className="bg-white rounded-full p-5 hover:bg-gray-800 hover:text-white transition duration-500 ease-in">
-                    <AiOutlineTwitter size={22} color='black' />
-                </div> */}
-            </div>
-
-            <div className="text-center bg-[#000033] text-white pb-24 pt-4">
-                <h1 className="ml-2 mr-2 pt-6 mb-6">Victory Resounding Revival Ministries <br />  ONITSHA, NIGERIA
-
-                </h1>
-                <div>
-                    EMAIL
-                    <span className="ml-1"> vresounding@gmail.com</span>
-                </div>
-            </div>
-
+  return (
+    <div>
+      <footer class="mt-20 xl:mt-32 mx-auto w-full relative text-center bg-[#000033] text-white">
+        <div class="px-6 py-8 md:py-14 xl:pt-20 xl:pb-12">
+          <h2 class="font-bold text-xl xl:text-4xl leading-snug">
+            Victory Resounding Revival Ministry
+            {/* <br />
+            Start your free trial today. */}
+          </h2>
+          <a
+            class="mt-8 xl:mt-12 px-12 py-5 text-lg font-semibold text-[#000033] leading-tight inline-block bg-white rounded-full shadow-xl border border-transparent hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-sky-999 "
+            href="https://wa.me/message/BFZQZ3QMSZ5KM1"
+            target="_blank"
+          >
+            Send Me A Message
+          </a>
+          <div class="mt-14 xl:mt-20">
+            <nav class="flex flex-wrap justify-center text-lg font-medium">
+              <div class="px-5 py-2">
+                <a href="/contact">Contact Me</a>
+              </div>
+              <div class="px-5 py-2">
+                <a href="/about-me">About Me</a>
+              </div>
+              <div class="px-5 py-2">
+                <a href="/partner">Partner With Me</a>
+              </div>
+              <div class="px-5 py-2">
+                <a href="/book-me">Book Me</a>
+              </div>
+              {/* <div class="px-5 py-2">
+                <a href="#"></a>
+              </div> */}
+            </nav>
+            <p class="mt-7 text-base">© 2024 VRealm, Ministry.</p>
+          </div>
         </div>
-    );
-}
+        <div className="text-sm w-full pb-4 border-t border-b border-gray-400 pt-2">
+          This website was designed and built by{" "}
+          <a
+            target="_blank"
+            className="underline text-sm"
+            href="https://x.com/arinzeobieze"
+          >
+            Arinze
+          </a>
+        </div>
+      </footer>
+    </div>
+  );
+};
 
 export default Footer;
