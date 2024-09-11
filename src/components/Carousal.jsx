@@ -7,7 +7,7 @@ export default function Carousal() {
       type: "slider",
       focusAt: "center",
       perView: 1,
-      autoplay: 3000,
+      autoplay: 2000,
       animationDuration: 700,
       gap: 0,
       classes: {

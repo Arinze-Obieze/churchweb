@@ -9,7 +9,7 @@ const Navbar = ({ onMobileMenuToggle }) => {
       aria-label="Global"
     >
       <div className="flex lg:flex-1">
-        <Link to="#" className="-m-1.5 p-1.5 ">
+        <Link to="/" className="-m-1.5 p-1.5 ">
           <span className="sr-only">VRealm</span>
           <img className="h-10 w-auto rounded-xl" src="/logo.jpg" alt="Logo" />
         </Link>
@@ -47,16 +47,16 @@ const Navbar = ({ onMobileMenuToggle }) => {
           MINISTRIES
         </a>
         <a
-          href="rrtv-network"
+          href="/rrtv-network"
           className="text-sm font-semibold leading-6 text-white"
         >
-          THE RRTV NETWORK
+          RRTV NETWORK
         </a>
         <a
-          href="/livestreams"
+          href="/gallery"
           className="text-sm font-semibold leading-6 text-white"
         >
-          LIVESTREAMS
+          GALLERY
         </a>
         <a
           href="/events"

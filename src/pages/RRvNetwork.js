@@ -46,13 +46,6 @@ const RrvNetwork = () => {
             <img src="/assets/etv4.jpg" alt="" className="md:w-[300px] m-0" />
           </div>
           <hr class="border-t border-gray-300 mt-4 mb-4 md:mt-12 mx-auto w-[85%]" />
-
-          <div className="mt-12 mb-12">
-            <h1 className="text-center text-xl font-semibold leading-7">
-              WATCH Resounding Revival TV ON THE RRTV APP
-            </h1>
-            <img src="/assets/etvlast.jpg" alt="" />
-          </div>
         </div>
       </div>
     </div>

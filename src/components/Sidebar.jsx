@@ -9,9 +9,9 @@ const Sidebar = ({ isOpen, onClose }) => {
   const handleAboutMenuToggle = () => {
     setIsAboutMenuOpen(!isAboutMenuOpen);
   };
-    const handleMediaMenuToggle = () => {
-      setIsMediaMenuOpen(!isMediaMenuOpen);
-    };
+  const handleMediaMenuToggle = () => {
+    setIsMediaMenuOpen(!isMediaMenuOpen);
+  };
 
   return (
     isOpen && (
@@ -99,7 +99,6 @@ const Sidebar = ({ isOpen, onClose }) => {
                 </button>
                 {isMediaMenuOpen && (
                   <div className="mt-2 space-y-2">
-                  
                     <a
                       href="/rrtv-network"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold
@@ -108,11 +107,11 @@ const Sidebar = ({ isOpen, onClose }) => {
                       RRTV NETWORK
                     </a>
                     <a
-                      href="/livestreams"
+                      href="/gallery"
                       className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold
        leading-7 text-white hover:bg-gray-50 hover:text-[#000033]"
                     >
-                      LIVESTREAM
+                      GALLERY
                     </a>
                   </div>
                 )}
