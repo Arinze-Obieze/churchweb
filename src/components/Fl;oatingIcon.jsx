@@ -5,7 +5,7 @@ function WhatsAppChat() {
   return (
     <div className="fixed bottom-4 right-4 z-50">
       <a
-        href="https://wa.me/12347062129563?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20products."
+        href="https://wa.me/2347062129563?text=Hello!%20I%20would%20like%20to%20know%20more%20about%20your%20products."
         target="_blank"
         rel="noopener noreferrer"
         className="group flex items-center bg-green-500 py-2 pl-4 pr-2 rounded-full transition-all duration-300 ease-in-out"

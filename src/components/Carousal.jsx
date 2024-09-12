@@ -45,7 +45,7 @@ export default function Carousal() {
             </li>
             <li className="flex items-center justify-center">
               <img
-                src="/h15.jpg"
+                src="/h5.jpg"
                 className="w-full h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover"
                 alt="Image 03"
               />

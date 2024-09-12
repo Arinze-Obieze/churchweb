@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 
 // Custom arrow components with improved styling
@@ -43,7 +42,7 @@ const Gallery = () => {
       <section className="py-6 bg-gray-100 text-gray-900">
         <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4 relative">
           {/* Carousel for the first image */}
-          <div className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-gray-500 aspect-square relative overflow-hidden">
+          <div className="w-full   col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 bg-gray-500 aspect-square relative overflow-hidden">
             <Slider {...settings}>
               <div className="w-full h-full flex items-center justify-center">
                 <img
@@ -54,37 +53,37 @@ const Gallery = () => {
               </div>
               <div className="w-full h-full flex items-center justify-center">
                 <img
-                  src="/h2.jpg"
+                  src="/h3.jpg"
                   alt="Gallery Image 2"
-                  className="w-full h-full object-cover"
+                  className="w-full  object-cover"
                 />
               </div>
-              <div className="w-full h-full flex items-center justify-center">
+              <div className="w-full h-[500px] flex items-center justify-center">
                 <img
                   src="/h4.jpg"
                   alt="Gallery Image 2"
-                  className="w-full h-full object-cover"
+                  className="w-full h-fit  object-cover"
                 />
               </div>
-              <div className="w-full h-full flex items-center justify-center">
+              <div className="w-full h-fit flex items-center justify-center">
                 <img
                   src="/h5.jpg"
                   alt="Gallery Image 2"
-                  className="w-full h-full object-cover"
+                  className="w-full  object-cover"
                 />
               </div>
               <div className="w-full h-full flex items-center justify-center">
                 <img
                   src="/h6.jpg"
                   alt="Gallery Image 2"
-                  className="w-full h-full object-cover"
+                  className="w-full  object-cover"
                 />
               </div>
               <div className="w-full h-full flex items-center justify-center">
                 <img
                   src="/h7.jpg"
                   alt="Gallery Image 2"
-                  className="w-full h-full object-cover"
+                  className="w-full  object-cover"
                 />
               </div>
               <div className="w-full h-full flex items-center justify-center">
@@ -98,7 +97,7 @@ const Gallery = () => {
                 <img
                   src="/h3.jpg"
                   alt="Gallery Image 3"
-                  className="w-full h-full object-cover"
+                  className="w-full  object-cover"
                 />
               </div>
             </Slider>

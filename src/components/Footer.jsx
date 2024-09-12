@@ -1,27 +1,20 @@
-import {
-  AiFillYoutube,
-  AiOutlineTwitter,
-  AiOutlineWhatsApp,
-} from "react-icons/ai";
-import { BiLogoFacebook } from "react-icons/bi";
-import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
       <footer class="mt-20 xl:mt-32 mx-auto w-full relative text-center bg-[#000033] text-white">
         <div class="px-6 py-8 md:py-14 xl:pt-20 xl:pb-12">
           <h2 class="font-bold text-xl xl:text-4xl leading-snug">
-            Victory Resounding Revival Ministry
+            Victory Resounding Revival Ministries
             {/* <br />
             Start your free trial today. */}
           </h2>
-          <a
+          {/* <a
             class="mt-8 xl:mt-12 px-12 py-5 text-lg font-semibold text-[#000033] leading-tight inline-block bg-white rounded-full shadow-xl border border-transparent hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-sky-999 "
             href="https://wa.me/message/BFZQZ3QMSZ5KM1"
             target="_blank"
           >
             Send Me A Message
-          </a>
+          </a> */}
           <div class="mt-14 xl:mt-20">
             <nav class="flex flex-wrap justify-center text-lg font-medium">
               <div class="px-5 py-2">
